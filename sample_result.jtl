@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1538612633921,251,test_setup_1,200,OK,setUp Thread Group 1-1,text,true,,803,394,1,1,251,0,150
+1538612634186,79,test_setup_2,200,OK,setUp Thread Group 1-1,text,true,,775,373,1,1,79,0,0
+1538612634267,79,test_setup_3,200,OK,setUp Thread Group 1-1,text,true,,785,390,1,1,79,0,0
+1538612634347,104,test_setup_4,200,OK,setUp Thread Group 1-1,text,true,,774,382,1,1,103,0,0
+1538612634499,1283,test_case_1,200,OK,security_service 1-1,text,true,,1511,1047,1,1,1283,0,668
+1538612635828,1261,test_case_2,200,OK,apigee_gateway 2-1,text,true,,448,1154,1,1,1261,0,387
+1538612637097,597,test_case_3,200,OK,security_service_sso 3-1,text,true,,1499,1092,1,1,597,0,157
+1538612637703,913,test_Case_4,200,OK,apigee_gateway_sso 4-1,text,false,No results for path: $['success'],448,1131,1,1,913,0,217
