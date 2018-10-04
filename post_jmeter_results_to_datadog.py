@@ -11,7 +11,7 @@ metrics = []
 
 def get_current_metric(timestamp, label, elapsed, success):
 	metric = {}
-	metric.update({'metric': 'test.metric'})
+	metric.update({'metric': 'jmeter.test.metric'})
 	metric.update({'points': [(timestamp, elapsed)]})
 	curtags = {}
 	curtags.update({'testcase': label})
@@ -33,4 +33,3 @@ for index, row in df.iterrows():
 	metrics.append(metric)
 	
 api.Metric.send(metrics)
-#print(metrics)
